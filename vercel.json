@@ -9,11 +9,5 @@
         }
       ]
     }
-  ],
-  "rewrites": [
-    {
-      "source": "/s/:code",
-      "destination": "https://jggscqwnnaglziezxjoe.supabase.co/functions/v1/link-handler?code=:code"
-    }
   ]
 }
