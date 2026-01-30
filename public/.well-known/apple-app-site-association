@@ -1,0 +1,29 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "LJKJ8KGJX4.com.celerise.delta",
+        "paths": [
+          "/s/*",
+          "/post/*",
+          "/routine/*",
+          "/profile/*",
+          "/photo/*",
+          "/pr/*",
+          "/measurement/*"
+        ]
+      }
+    ]
+  },
+  "webcredentials": {
+    "apps": [
+      "LJKJ8KGJX4.com.celerise.delta"
+    ]
+  },
+  "appclips": {
+    "apps": [
+      "LJKJ8KGJX4.com.celerise.delta.Clip"
+    ]
+  }
+}
