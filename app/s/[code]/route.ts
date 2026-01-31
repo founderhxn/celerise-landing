@@ -22,13 +22,14 @@ export async function GET(
     },
   });
 
-  const contentType = response.headers.get('content-type') || 'text/html';
+  const contentType = response.headers.get('content-type') || 'text/html; charset=utf-8';
   const body = await response.text();
 
   return new NextResponse(body, {
     status: response.status,
     headers: {
       'Content-Type': contentType,
+      'Cache-Control': 'no-cache, no-store, must-revalidate',
     },
   });
 }
